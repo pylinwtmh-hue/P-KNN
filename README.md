@@ -1,4 +1,11 @@
 # P-KNN: Joint Calibration of Pathogenicity Prediction Tools
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Paper](https://img.shields.io/badge/Paper-Genetics%20in%20Medicine-blue)](https://doi.org/10.1016/j.gim.2026.102692)
+[![PyPI version](https://img.shields.io/pypi/v/P_KNN.svg)](https://pypi.org/project/P_KNN/)
+[![Downloads](https://static.pepy.tech/badge/p-knn)](https://pepy.tech/project/p-knn)
+[![Precomputed Score Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-brandeslab%2FP--KNN-yellow)](https://huggingface.co/datasets/brandeslab/P-KNN)
+[![Precomputed Score Viewer](https://img.shields.io/badge/%F0%9F%A4%97%20Space-P--KNN--Viewer-orange)](https://huggingface.co/spaces/brandeslab/P-KNN-Viewer)
+
 **Pathogenicity-K-Nearest-Neighbor (P-KNN)** is a command-line tool for genome-wide, non-parametric calibration of multiple variant pathogenicity prediction scores. It transforms raw scores from various prediction tools into clinically interpretable metrics:
 - Posterior probabilities of a variant being pathogenic or benign.
 - Log likelihood ratio (LLR) evidence strength, compatible with the [ACMG/AMP Bayesian framework](https://www.sciencedirect.com/science/article/pii/S1098360021017718?via%3Dihub) for clinical variant interpretation.
@@ -283,5 +290,5 @@ Replace `/path/to/your/data` with the local directory containing your input CSV 
 ## Related Resources
 - **Precomputed score dataset**: [Hugging Face brandeslab/P-KNN](https://huggingface.co/datasets/brandeslab/P-KNN) These precomputed scores are derived from dbNSFP. Users are strictly bound by the [dbNSFP licensing terms](https://www.dbnsfp.org/license). For commercial use, you must obtain a commercial license directly from dbNSFP.
 - **Gene based precomputed score viewer**: [P-KNN-Viewer](https://huggingface.co/spaces/brandeslab/P-KNN-Viewer)
-- **Manuscript**: [P-KNN: Maximizing variant classification evidence through joint calibration of multiple pathogenicity prediction tools](https://doi.org/10.1101/2025.09.24.678417)
+- **Manuscript**: [P-KNN: Joint calibration of multiple pathogenicity prediction tools streamlines variant classification](https://doi.org/10.1016/j.gim.2026.102692)
 - **dbNSFP License**: [dbNSFP Commercial Use Requirements](https://www.dbnsfp.org/license)
